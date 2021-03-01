@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.title{
+    box-shadow: 0px 1px 5px 0px #0000006b;
+    padding: 7px;
+    margin: 8px;
+}
+.title h1{
+    margin: 6px 0;
+}
+.title mark{
+    background: #05d2c8;
+    padding: 3px 0px 3px 1px;
+}
