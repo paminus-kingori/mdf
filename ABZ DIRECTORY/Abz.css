@@ -1,0 +1,236 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: url(abzimages/abzpattern2.jpg);
+	background-size: cover;
+	color: ghostwhite;
+	}
+.header{
+		width: 90%;
+		height: 100px;
+		margin-top: 0px important;
+		background: white;
+		max-height: 100px;
+		margin: auto;
+		color: #800000;
+		margin-bottom: 10px;
+	}
+.head-title{
+	text-align: left;
+	font-size: 1.6em;
+	font-weight: bold;
+	font-family: "Maiandra GD";
+	padding: 10px;
+}
+hr{
+	width: 78%;
+	color: 1.5px solid maroon;
+}
+.logo{
+	width: 20%;
+	height: 100%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.searchbar{
+	width: 80%;
+	margin-left: 5%;
+
+}
+.searchbar input, button{
+	width: 75%;
+	padding: 12px;
+	background: transparent;
+	border-right: 0px;
+	font-size: 1.1em;
+	border: 1.5px solid #800000;
+	color: black;
+}
+.searchbar input:hover{
+	border: 1.5px solid black;
+}
+.searchbar input:focus{
+	border: 1.5px solid maroon;
+	outline: none;
+}
+button{
+	width: 25%;
+	background: #800000;
+	float: right;
+	border-left: 0px;
+	border-radius: 0px 10px 10px 0px;
+	font-weight: bold;
+}
+button:hover{
+	background: #cc0000;
+	font-weight: normal;
+}
+.list{
+	width: 25%;
+	background: #800000;
+	float: left;
+	border-left: 0px;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: bold;
+	margin-top: 5%;
+	color: black;
+}
+.list a{
+	text-decoration: none;
+	color: black;
+}
+button .list:hover{
+	background: #cc0000;
+	font-weight: normal;
+}
+	.body{
+		width: 70%;
+		height: auto;
+		margin-left: 5%;
+		margin-bottom: 10px;
+		margin-top: 1%;
+		color: black;
+
+	}
+	.body .shortheader{
+		width: 50%;
+		height: auto;
+		margin: auto;
+		margin-bottom: 10px;
+		float: left;
+		color : maroon;
+		clear: both;
+
+	}
+	.content{
+		width: 100%;
+		height: auto;
+		margin: auto;
+		margin-bottom: 10px;
+		margin-top: 1%;
+		color: black;
+		background: #999999;
+		clear: both;
+
+	}
+	.more{
+		color: black;
+	}
+	.more h3{
+		color: maroon;
+		font-weight: bold;
+	}
+	.more ul{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+
+	}
+	.more ul li{
+		
+		width: 150px;
+		height: 35px;
+		padding: 5px;
+		background: grey;
+		text-align: left;
+		color: blue;
+		font-size: .9em;
+		font-weight: bold;
+		margin: 2px 0px;
+		display: block;
+		opacity: .8;
+
+
+	}
+	.more ul li a{
+		display: block;
+		text-decoration: none;
+		color: blue;
+		width: 150px;
+		height: 35px;
+		padding: 5px;
+		font-size: .9em;
+		margin: 2px 0px;
+	}
+	.more ul li a:hover{
+		display: block;
+
+		background: maroon;
+		color: ghostwhite;
+	}
+
+	.footer{
+		width: 100%;
+		height: 60px;
+		max-height: 100px;
+		border-top: 3px solid maroon;
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		color: ghostwhite;
+		background: #404040;
+
+
+
+	}
+	.footer .leftdet{
+		float: left;
+		margin-left: 10px;
+		width: 45%;
+		text-align: left;
+		
+	}
+	.footer .leftdet ul{
+		list-style: none;
+		color: ghostwhite;
+		margin: 0px;
+		padding: 0px;
+	}
+	.footer .leftdet ul li{
+		display: inline-block;
+		width: 100px;
+		height: 20px
+		margin: 5px;
+		padding: 5px;
+		background: grey;
+		text-align: center;
+	}
+	.footer .leftdet ul li a{
+		text-decoration: none;
+		display: block;
+		color: ghostwhite;
+	}
+	.footer .rightdet{
+		float: right;
+		width: 45%;
+		text-align: left;
+		
+	}
+	.footer .rightdet ul{
+		list-style: none;
+		color: ghostwhite;
+		margin: 0px;
+		padding: 0px;
+	}
+	.footer .rightdet ul li a{
+		display: block;
+		text-decoration: none;
+		color: ghostwhite;
+	}
+	.footer .rightdet ul li{
+		display: inline-block;
+		width: 100px;
+		height: 20px
+		margin: 5px;
+		padding: 5px;
+		background: grey;
+		text-align: center;
+	}
+
